@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="Css/style.css" />
+
+    <title>CV & Portfolio | Azis Rosyid</title>
+  </head>
+  <body id="home">
+    <!-- Navbar -->
+    <nav
+      class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm fixed-top"
+    >
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img
+            src="Image/navbar-logo.png"
+            class="rounded-circle"
+            alt=""
+            width="35"
+            height="35"
+            class="d-inline-block align-text-top"
+          />
+          Azis Rosyid
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#detail">Detail</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Akhir Navbar -->
+
+    <div id="backjs"></div>
+
+    <!-- Jumbotron -->
+    <section class="jumbotron text-center text-light" id="jumbotron">
+      <img
+        src="Image/hero-image.png"
+        alt="Azis Rosyid"
+        width="220"
+        class="rounded-circle img-thumbnail"
+      />
+      <h1 class="display-4">Azis Rosyid</h1>
+      <p class="lead">
+        Student | Web Design | Mobile App Development | Full Stack
+      </p>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#212529"
+          fill-opacity="100000"
+          d="M0,128L480,160L960,128L1440,160L1440,320L960,320L480,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+    <!-- Akhir Jumbotron -->
+
+    <!-- About -->
+    <section id="about" class="bg-dark text-light align-items-center">
+      <div class="container mb-5">
+        <div class="row text-center mb-5">
+          <div class="col">
+            <h2>About Me</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center fs-5">
+          <div class="col-md-2 col-sm-3 offset-md-2" id="info">
+            <p>Name</p>
+            <p>Birth</p>
+            <p>Gender</p>
+            <p>Religion</p>
+            <p>School</p>
+            <p>Phone</p>
+            <p>Email</p>
+            <p>Address</p>
+          </div>
+          <div class="col-md-5 col-sm-6">
+            <p>Azis Rosyid</p>
+            <p>Yogyakarta, 28 May 2004</p>
+            <p>Male</p>
+            <p>Islam</p>
+            <p>SMK Negeri 2 Yogyakarta</p>
+            <p>0895421891378</p>
+            <p>azisrosyid321@gmail.com</p>
+            <p>
+              Kragilan RT 01 RW 08, Sinduadi, Mlati, Sleman, DIY, Indonesia
+              55284
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Akhir About -->
+
+    <!-- Skill -->
+    <section id="skills" class="bg-dark" style="padding-bottom: 7rem">
+      <div class="container">
+        <div class="row text-center mb-5 text-light">
+          <div class="col">
+            <h2 class="pe-4">Skills</h2>
+          </div>
+        </div>
+        <div class="row text-center justify-content-center">
+          <div class="col">
+            <div id="chart"></div>
+          </div>
+        </div>
+        <div class="row align-items-start">
+          <div class="col-md-12">
+            <div class="container">
+              <h2 class="my-skills">My Skills</h2>
+              <div class="bar-1">
+                <div class="title text-primary">HTML5 & CSS3</div>
+                <div class="bar" data-width="80%">
+                  <div class="bar-inner bg-primary"></div>
+                  <div class="bar-percent">80%</div>
+                </div>
+              </div>
+              <div class="bar-1">
+                <div class="title text-warning" style="color: #084c61">
+                  Javascript
+                </div>
+                <div class="bar" data-width="60%">
+                  <div
+                    class="bar-inner bg-warning"
+                    style="background: #084c61"
+                  ></div>
+                  <div class="bar-percent">60%</div>
+                </div>
+              </div>
+              <div class="bar-1">
+                <div class="title text-danger" style="color: #525252">Java</div>
+                <div class="bar" data-width="60%">
+                  <div
+                    class="bar-inner bg-danger"
+                    style="background: #525252"
+                  ></div>
+                  <div class="bar-percent">60%</div>
+                </div>
+              </div>
+              <div class="bar-1">
+                <div class="title text-success" style="color: #5a68a5">C#</div>
+                <div class="bar" data-width="70%">
+                  <div
+                    class="bar-inner bg-success"
+                    style="background: #5a68a5"
+                  ></div>
+                  <div class="bar-percent">70%</div>
+                </div>
+              </div>
+              <div class="bar-1">
+                <div class="title" style="color: #5a68a5">PHP & Laravel</div>
+                <div class="bar" data-width="70%">
+                  <div class="bar-inner" style="background: #5a68a5"></div>
+                  <div class="bar-percent">70%</div>
+                </div>
+              </div>
+              <div class="bar-1">
+                <div class="title text-info" style="color: #5a68a5">
+                  Python & Django
+                </div>
+                <div class="bar" data-width="30%">
+                  <div
+                    class="bar-inner bg-info"
+                    style="background: #5a68a5"
+                  ></div>
+                  <div class="bar-percent">30%</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Akhir Skill -->
+
+    <!-- Detail -->
+    <section
+      id="detail"
+      class="bg-dark text-light"
+      style="padding-bottom: 7rem"
+    >
+      <div class="container">
+        <div
+          class="row text-center mb-5 text-light"
+          style="padding-bottom: 2rem"
+        >
+          <div class="col">
+            <h2>Detail</h2>
+          </div>
+        </div>
+        <div class="row mb-3 text-light text-center">
+          <div class="col">
+            <h3>Education</h3>
+          </div>
+        </div>
+        <div class="row fs-5 justify-content-center">
+          <div class="col-md-5 col-sm-5">
+            <h4 class="fw-bold">School</h4>
+            <p>SD Muh Karangwaru</p>
+            <p>MTS Negeri 6 Sleman</p>
+            <p>SMK Negeri 2 Yogyakarta</p>
+          </div>
+          <div class="col-md-3 col-sm-3">
+            <h4 class="fw-bold">Period</h4>
+            <p>2010 - 2016</p>
+            <p>2016 - 2019</p>
+            <p>2019 - Sekarang</p>
+          </div>
+        </div>
+        <div class="row mb-3 mt-5 text-light text-center">
+          <div class="col">
+            <h3>Experience</h3>
+          </div>
+        </div>
+        <div class="row fs-5 justify-content-center">
+          <div class="col-md-5 col-sm-5">
+            <h4 class="fw-bold">Place</h4>
+            <p>PT. Heptaco Digital Media</p>
+            <p>LKS DIY Software Solution for Business</p>
+            <p>HMIF DEDICATED TO SCHOOL 2021 Participant</p>
+          </div>
+          <div class="col-md-3 col-sm-3">
+            <h4 class="fw-bold">Period</h4>
+            <p>2021</p>
+            <p>2021</p>
+            <p>2021</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects">
+      <div class="container">
+        <div class="row text-center text-light mb-4">
+          <div class="col">
+            <h2>My Projects</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-4 mb-3">
+            <div class="card bg-dark text-light">
+              <img src="Image/project1.png" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card bg-dark text-light">
+              <img src="Image/project1.png" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card bg-dark text-light">
+              <img src="Image/project1.png" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card bg-dark text-light">
+              <img src="Image/project1.png" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card bg-dark text-light">
+              <img src="Image/project1.png" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#212529"
+          fill-opacity="100000"
+          d="M0,256L60,256C120,256,240,256,360,240C480,224,600,192,720,186.7C840,181,960,203,1080,218.7C1200,235,1320,245,1380,250.7L1440,256L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+    <!-- Akhir Project -->
+
+    <!-- Contact -->
+    <section id="contact" class="bg-dark text-light">
+      <div class="container">
+        <div class="row mb-4 text-center">
+          <div class="col">
+            <h2>Contact Me</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-8">
+            <form method="post" action="mailto:someone@example.com">
+              <div class="mb-3">
+                <label for="name" class="form-label">Nama Lengkap</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="name"
+                  aria-describedby="name"
+                  name="first_name"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="email"
+                  aria-describedby="emailHelp"
+                  name="email_address"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="message" class="form-label">Pesan</label>
+                <textarea
+                  class="form-control"
+                  id="message"
+                  rows="3"
+                  name="comments"
+                ></textarea>
+              </div>
+              <button type="submit" class="btn btn-dark btn-outline-light">
+                Kirim
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#212529"
+          fill-opacity="100000"
+          d="M0,256L60,256C120,256,240,256,360,240C480,224,600,192,720,186.7C840,181,960,203,1080,218.7C1200,235,1320,245,1380,250.7L1440,256L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+    <!-- Akhir Contact -->
+
+    <!-- Footer -->
+    <footer class="bg-dark text-light text-center pb-5">
+      <p>
+        Created with
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="16"
+          height="16"
+          fill="currentColor"
+          class="bi bi-heart-fill text-danger"
+          viewBox="0 0 16 16"
+        >
+          <path
+            fill-rule="evenodd"
+            d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"
+          />
+        </svg>
+        by
+        <a
+          href="https://github.com/AzisRosyid"
+          class="text-light fw-bold"
+          target="_blank"
+          >Azis Rosyid</a
+        >
+      </p>
+    </footer>
+    <!-- Akhir Footer -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.net.min.js"></script>
+    <script>
+      VANTA.NET({
+        el: "#home",
+        mouseControls: true,
+        touchControls: true,
+        gyroControls: false,
+        minHeight: 200.0,
+        minWidth: 200.0,
+        scale: 1.0,
+        scaleMobile: 1.0,
+        color: 0x999999,
+        backgroundColor: 0x212529,
+        maxDistance: 19.0,
+        spacing: 14.0,
+      });
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.3.2/dist/chart.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+    <script>
+      var options = {
+        series: [
+          {
+            name: "Skill",
+            data: [60, 60, 70, 70, 30, 80],
+          },
+        ],
+        chart: {
+          height: 500,
+          type: "radar",
+        },
+        dataLabels: {
+          enabled: true,
+        },
+        plotOptions: {
+          radar: {
+            size: 220,
+            polygons: {
+              strokeColors: "#e9e9e9",
+              fill: {
+                colors: ["#f8f8f8", "#fff"],
+              },
+            },
+          },
+        },
+        title: {
+          text: "",
+        },
+        colors: ["#000"],
+        markers: {
+          size: 4,
+          colors: ["#fff"],
+          strokeColor: "#000",
+          strokeWidth: 2,
+        },
+        tooltip: {
+          y: {
+            formatter: function (val) {
+              return val;
+            },
+          },
+        },
+        xaxis: {
+          categories: [
+            "Javascript",
+            "Java",
+            "C#",
+            "PHP & Laravel",
+            "Python & Django",
+            "HTML5 & CSS3",
+          ],
+        },
+        yaxis: {
+          tickAmount: 6,
+          labels: {
+            formatter: function (val, i) {
+              if (i % 2 === 0) {
+                return val;
+              } else {
+                return "";
+              }
+            },
+          },
+        },
+      };
+
+      var chart = new ApexCharts(document.querySelector("#chart"), options);
+      chart.render();
+    </script>
+    <script src="Javascript/jquery-3.6.0.min.js"></script>
+    <script>
+      $(".bar").each(function () {
+        $(this)
+          .find(".bar-inner")
+          .animate(
+            {
+              width: $(this).attr("data-width"),
+            },
+            2000
+          );
+      });
+    </script>
+  </body>
+</html>

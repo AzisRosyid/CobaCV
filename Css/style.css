@@ -1,0 +1,64 @@
+.jumbotron {
+  padding-top: 7rem;
+  background-color: rgba(0, 0, 0, 0.479);
+}
+
+#projects {
+  background-color: rgba(0, 0, 0, 0.479);
+}
+
+section {
+  padding-top: 5rem;
+}
+
+#backwave {
+  padding-top: 50px;
+}
+
+#about {
+  padding-bottom: 4rem;
+}
+
+#info p {
+  font-weight: bold;
+}
+
+body {
+  min-width: 900px;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 20px;
+  color: #db3a34;
+}
+
+.bar {
+  width: 100%;
+  height: 35px;
+  background: #fff;
+  border-radius: 5px;
+  position: relative;
+  transition: all 2s linear;
+}
+
+.bar-1,
+.my-skills {
+  width: 80%;
+  margin: 10px auto 25px;
+}
+
+.bar-inner {
+  width: 0;
+  height: 35px;
+  line-height: 35px;
+  background: #db3a34;
+  border-radius: 5px 0 0 5px;
+}
+
+.bar-percent {
+  position: absolute;
+  right: 10px;
+  top: 5px;
+  font-size: 18px;
+}
